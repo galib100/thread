@@ -48,6 +48,7 @@ function PostThread({ userId }: { userId: string }) {
             communityId:null, 
             path :pathname
         });
+        form.reset();
         router.push("/")
     }
     const form = useForm({
